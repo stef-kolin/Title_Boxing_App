@@ -1,14 +1,10 @@
-.body{
+body{
     font-family: "Oswald", "roboto", sans;
     background-color: #142936;
     color: white;
 }
 
-
-
-.navbar{
-    background-color: #142936;
+.classzone {
+    margin: 50%;
 }
-.mx-auto {
-    background-color: green;
-}
+
