@@ -1,11 +1,14 @@
 .body{
     font-family: "Oswald", "roboto", sans;
     background-color: #142936;
+    color: white;
 }
 
-.navbarcontainer{
-    margin-left: 1000px;
-}
-.footer{
+
+
+.navbar{
     background-color: #142936;
+}
+.mx-auto {
+    background-color: green;
 }
