@@ -6,10 +6,7 @@ body {
     margin: 0 auto;
 }
 
-.col {
-    
-
-}
+.col {}
 
 
 
@@ -20,14 +17,27 @@ header {
 
 .welcome {
     margin-top: 10rem;
+    
 }
 
-.card{
-    background: linear-gradient(#486374, 0F1924);
+.yuc-text {
+    margin-left: 11px;
 }
-.buttoncontainer{
+
+.card {
+    margin-left: 11px;
+    background: linear-gradient(#486374, #0F1924);
+}
+
+.cardcontainer {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+.buttoncontainer {
     margin-top: 1rem;
-    
+
 }
 
 .btn-sm {
@@ -41,7 +51,7 @@ header {
 
 .navfooter {
     width: 393px;
-    background: linear-gradient(#243E4D,#486374);  
+    background: linear-gradient(#243E4D, #486374);
     font-size: 14px;
-    font: 100 ;
+    font: 100;
 }
