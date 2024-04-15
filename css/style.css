@@ -16,12 +16,20 @@ header {
 }
 
 .welcome {
-    margin-top: 10rem;
-    
+    margin-top: 11rem;
 }
 
+.welcomeh1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.lead{
+    font-size: 16px;  
+    font-weight: 500;
+}
 .yuc-text {
     margin-left: 11px;
+ 
 }
 
 .card {
@@ -41,12 +49,16 @@ header {
 }
 
 .btn-sm {
-    width: 180px;
+    width: 177px;
+    height: 55px;
     background: linear-gradient(#920F3A, #CD0031);
+    font-size: 20px;
 }
 
 .btn-lg {
+    height: 80px;
     background: linear-gradient(#920F3A, #CD0031);
+    font-size: 32px;
 }
 
 .navfooter {
