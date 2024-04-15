@@ -1,10 +1,36 @@
-body{
+body {
     font-family: "Oswald", "roboto", sans;
-    background-color: #142936;
+    background: linear-gradient(#142936, #0B1820);
     color: white;
+    width: 393px !important;
+    margin: 0 auto;
 }
 
-.classzone {
-    margin: 50%;
+.col {
+    background-color: green;
+
 }
 
+.navfooter {
+    background-color: purple !important;
+    width: 393px;
+}
+
+header {
+    width: 393px;
+    margin: 0 auto;
+}
+
+.welcome {
+    background-color: yellowgreen;
+    margin-top: 10rem;
+}
+
+.btn-sm {
+    width: 180px;
+    background: linear-gradient(#920F3A, #CD0031);
+}
+
+.btn-lg {
+    background: linear-gradient(#920F3A, #CD0031);
+}

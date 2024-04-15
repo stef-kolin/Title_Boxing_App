@@ -16,17 +16,17 @@
 
 </head>
 
-<body class="mx-5 bg-info">
+<body class="bg-info">
 
     <!-- Header Nav Start -->
-    <header>
-        <div
-            class="container position-absolute top-0 start-50 translate-middle-x d-flex flex-column navbarcontainer bg-dark">
+    <header class="fixed-top d-flex flex-row">
+        <div class="container navbarcontainer bg-dark navheader">
             <!-- iOS components -->
             <nav class="navbar">
                 <div class="container-sm">
                     <a class="navbar-brand mx-auto" href="#">
-                        <img src="images\White Default iOS navbar.png" alt="iOS tool bar" width="730" height="85">
+                        <img src="images\White Default iOS navbar.png" alt="iOS tool bar" width="293" height="5
+                        5">
                     </a>
                 </div>
             </nav>
@@ -44,7 +44,7 @@
     <!-- Header Nav End -->
 
     <!-- Welcome Msg Start -->
-    <div class="container-fluid position-absolute top-50 start-50 translate-middle">
+    <div class="container-fluid welcome">
         <div class="jumbotron text-light bg-dark">
             <h1 class="display-4">WELCOME BACK, SAM!</h1>
             <p class="lead">READY TO HIT IT HARD WITH US?</p>
@@ -54,54 +54,61 @@
 
     <!-- Upcoming Classes Start -->
 
-    <div class="bg-dark row position-relative top-50 start-50 translate-middle mx-5 d-flex justify-content-center class">
-        <p class="text-light">Your Upcoming Classes:</p>
-        <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1" style="width: 14rem;">
+    <div class="bg-dark  d-flex flex-column">
+        <div>
+            <p class="text-light">Your Upcoming Classes:</p>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1  "
+                style="width: 8rem;">
+                <a href="#" class="text-light text-decoration-none">
+                    <div class="card-body">
+                        <h5 class="card-title">Monday</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">4/15</h6>
+                        <p class="card-text">Boxing 45<br>
+                            9:30 AM</br></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1"
+            style="width: 8rem;">
             <a href="#" class="text-light text-decoration-none">
+                <div class="card-body">
+                    <h5 class="card-title">Monday</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">4/15</h6>
+                    <p class="card-text">Boxing 45<br>
+                        9:30 AM</br></p>
+            </a>
+        </div>
+    </div>
+
+    <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1"
+        style="width: 8rem;">
+        <a href="#" class="text-light text-decoration-none">
             <div class="card-body">
                 <h5 class="card-title">Monday</h5>
                 <h6 class="card-subtitle mb-2 text-muted">4/15</h6>
                 <p class="card-text">Boxing 45<br>
                     9:30 AM</br></p>
-                </a>
-
-            </div>
-        </div>
-        <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1" style="width: 14rem;">
-            <a href="#" class="text-light text-decoration-none">
-            <div class="card-body">
-                <h5 class="card-title">Monday</h5>
-                <h6 class="card-subtitle mb-2 text-muted">4/15</h6>
-                <p class="card-text">Boxing 45<br>
-                    9:30 AM</br></p>
-                </a>
-
-            </div>
-        </div>
-        <div class="card bg-dark bg-gradient bg-opacity-75 text-white border border-dark rounded-3 mx-1" style="width: 14rem;">
-            <a href="#" class="text-light text-decoration-none">
-            <div class="card-body">
-                <h5 class="card-title">Monday</h5>
-                <h6 class="card-subtitle mb-2 text-muted">4/15</h6>
-                <p class="card-text">Boxing 45<br>
-                    9:30 AM</br></p>
-                </a>
-
-            </div>
-        </div>
+        </a>
+    </div>
+    </div>
     </div>
     <!-- Upcoming Classes End -->
 
 
     <!-- Booking Button section Start -->
     <div class="border container position-relative">
-        <div>
-            <button type="button" class="btn btn-danger btn-sm col-1 border border-danger rounded-3">My Bookings</button>
-            <button type="button" class="btn btn-danger btn-sm col-1 border border-danger rounded-3">My Stats</button>
+        <div class="d-flex flex-row gap-1 justify-content-between">
+            <button type="button" class="btn btn-danger btn-sm border border-danger rounded-3">My
+                Bookings</button>
+            <button type="button" class="btn btn-danger btn-sm border border-danger rounded-3">My Stats</button>
         </div>
 
         <div>
-            <button type="button" class="btn btn-danger btn-lg mt-1 col-2 mx-auto border border-danger rounded-3">Book a Class</button>
+            <button type="button" class="btn btn-danger btn-lg mt-1 mx-auto border border-danger rounded-3 col-12">Book a
+                Class</button>
 
         </div>
 
@@ -111,27 +118,27 @@
 
     <!-- Footer Nav Start-->
     <footer>
-        <div class="container fixed-bottom bg-dark">
-            <div class="row">
-                <div class="col">
+        <div class="container fixed-bottom bg-dark navfooter">
+            <div class="d-flex flex-row">
+                <div class="">
                     <a class="navbar-brand mx-auto" href="#">
                         <img src="images\Home.png" alt="" width="40" height="40">
                         <h5 class="text-light">Home</h5>
                     </a>
                 </div>
-                <div class="col">
+                <div class="">
                     <a class="navbar-brand mx-auto" href="#">
                         <img src="images\Bookings.png" alt="" width="40" height="40">
                         <h5 class="text-light">Bookings</h5>
                     </a>
                 </div>
-                <div class="col">
+                <div class="">
                     <a class="navbar-brand mx-auto" href="#">
                         <img src="images\Stats.png" alt="" width="40" height="40">
                         <h5 class="text-light">Stats</h5>
                     </a>
                 </div>
-                <div class="col">
+                <div class="">
                     <a class="navbar-brand mx-auto" href="#">
                         <img src="images\Community.png" alt="" width="60" height="40">
                         <h5 class="text-light">Community</h5>
