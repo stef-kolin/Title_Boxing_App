@@ -3,6 +3,7 @@ body {
     background: linear-gradient(#142936, #0B1820);
     color: #FFF8EE;
     width: 393px !important;
+  
     margin: 0 auto;
 }
 
@@ -13,10 +14,11 @@ body {
 header {
     width: 393px;
     margin: 0 auto;
+
 }
 
 .welcome {
-    margin-top: 11rem;
+    margin-top: 1rem;
 }
 
 .welcomeh1{
@@ -80,6 +82,7 @@ header {
 
 .navfooter {
     width: 393px;
+    height: 75px;
     background: linear-gradient(#243E4D, #486374);
     font-size: 12px;
     font: 100;
