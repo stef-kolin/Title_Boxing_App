@@ -1,7 +1,7 @@
 body {
     font-family: "Oswald", "roboto", sans;
     background: linear-gradient(#142936, #0B1820);
-    color: white;
+    color: #FFF8EE;
     width: 393px !important;
     margin: 0 auto;
 }
@@ -37,6 +37,10 @@ header {
     background: linear-gradient(#486374, #0F1924);
 }
 
+.cardtitle{
+    color:#FFF8EE !important;
+}
+
 .cardcontainer {
     margin-left: 4px;
     margin-right: 4px;
@@ -53,29 +57,30 @@ header {
     height: 55px;
     background: linear-gradient(#920F3A, #CD0031);
     font-size: 20px;
+    color: #FFF8EE;
 }
 
 .btn-lg {
     height: 80px;
     background: linear-gradient(#920F3A, #CD0031);
     font-size: 32px;
+    color:#FFF8EE;
 }
 .contentcard{
-  
+
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
     width:;
-
-
 }
-
-
+.contentcard1{
+  
+}
 
 
 .navfooter {
     width: 393px;
     background: linear-gradient(#243E4D, #486374);
-    font-size: 14px;
+    font-size: 12px;
     font: 100;
 }
