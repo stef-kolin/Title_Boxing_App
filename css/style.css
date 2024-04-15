@@ -7,14 +7,11 @@ body {
 }
 
 .col {
-    background-color: green;
+    
 
 }
 
-.navfooter {
-    background-color: purple !important;
-    width: 393px;
-}
+
 
 header {
     width: 393px;
@@ -22,8 +19,15 @@ header {
 }
 
 .welcome {
-    background-color: yellowgreen;
     margin-top: 10rem;
+}
+
+.card{
+    background: linear-gradient(#486374, 0F1924);
+}
+.buttoncontainer{
+    margin-top: 1rem;
+    
 }
 
 .btn-sm {
@@ -33,4 +37,11 @@ header {
 
 .btn-lg {
     background: linear-gradient(#920F3A, #CD0031);
+}
+
+.navfooter {
+    width: 393px;
+    background: linear-gradient(#243E4D,#486374);  
+    font-size: 14px;
+    font: 100 ;
 }
