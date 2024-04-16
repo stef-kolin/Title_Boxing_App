@@ -16,7 +16,10 @@ header {
     margin: 0 auto;
 
 }
-
+.BackButton{
+    margin-top: 4rem;
+    margin-left: 55px;
+}
 .welcome {
     margin-top: 1rem;
 }
@@ -27,7 +30,7 @@ header {
 }
 
 .welcomeh1-booking{
-    margin-top: 40%;
+    margin-top: 20%;
     font-weight: bold;
     padding-bottom: 20px;
     margin-left: 60px;
@@ -42,7 +45,7 @@ header {
 }
 .bookingconfirmedbtn{
     background: linear-gradient(#1B6C86, #CD0031);  
-    height: 45px;
+    height: 55px;
     width: 255px;
     color: #FFF8EE;
     font-weight: bold;
