@@ -40,8 +40,13 @@ header {
 .bookingsummary{
     margin-left: 17px;
 }
-.confirmedbtnandmsg{
-   
+.myclassescard{
+  background-color: FFF8EE; 
+
+}
+
+.onetwothreesteps {
+margin-top: 2rem;
 }
 .bookingconfirmedbtn{
     background: linear-gradient(#1B6C86, #CD0031);  
