@@ -16,9 +16,7 @@ header {
     margin: 0 auto;
 
 }
-.BackButton{
-    margin-top: 4rem;
-    margin-left: 55px;
+
 }
 .welcome {
     margin-top: 1rem;
@@ -30,7 +28,7 @@ header {
 }
 
 .welcomeh1-booking{
-    margin-top: 20%;
+    margin-top: 30%;
     font-weight: bold;
     padding-bottom: 20px;
     margin-left: 60px;
@@ -42,18 +40,32 @@ header {
 }
 .myclassescard{
   background-color: FFF8EE; 
+  margin-top: 1rem;
 
 }
-
+.mngbagstitle, .mngbagsdescr {
+    margin-left: 2rem;
+}
+.easy123 {
+    margin-top: 1rem;
+    margin-left: 8rem;}
+    
 .onetwothreesteps {
-margin-top: 2rem;
+margin-top: 1rem;
+margin-left: 8rem;
 }
+
+
+.bookaclassbtn{
+    margin-left: 2rem;   
+}
+
 .bookingconfirmedbtn{
     background: linear-gradient(#1B6C86, #CD0031);  
     height: 55px;
     width: 255px;
     color: #FFF8EE;
-    font-weight: bold;
+    font-size: 25px;
     margin-left: 60px;
 }
 .bookingconfirmedbtntext{
