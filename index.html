@@ -80,21 +80,24 @@
         </div>
     </div>
 
-    <div class="card classescard border border-dark rounded-3 mx-1" style="width: 8rem;">
-        <a href="ConfirmedBooking.html" class="text-light text-decoration-none">
+    <div class="card classescard border border-dark rounded-3 mx-1" style="width: 8rem;" id="confirmedbooking"
+        onclick="on()">
+        <a href="#" class="text-light text-decoration-none">
             <div class="card-body">
                 <h5 class="card-title fw-normal">Monday</h5>
                 <h6 class="card-subtitle mb-2 fw-normal">4/22</h6>
                 <p class="card-text">Boxing 45 Int.<br>
                     5:30 PM</br></p>
         </a>
-        
+
     </div>
     </div>
     </div>
 
+    <div class="bookingsummary" id="overlay" onclick="off()">
+        <img src="images\Booking Summary.png" alt="" width="350">
+    </div>
 
-    
     <!-- Upcoming Classes End -->
 
 
@@ -102,8 +105,8 @@
     <div class="buttoncontainer container position-relative">
         <div class="d-flex flex-row gap-1 justify-content-between">
             <a href="BookingMenu.html">
-            <button type="button" class="btn btn-sm border-0 rounded-3">My
-                Bookings</button></a>
+                <button type="button" class="btn btn-sm border-0 rounded-3">My
+                    Bookings</button></a>
             <button type="button" class="btn btn-sm border-0 rounded-3">My Stats</button>
         </div>
 
@@ -139,7 +142,7 @@
     <!-- Section for Content Cards End -->
     <!-- Footer Nav Start-->
     <footer>
-        <div class="container fixed-bottom navfooter border border-top-0 border-5 rounded"> 
+        <div class="container fixed-bottom navfooter border border-top-0 border-5 rounded">
             <div class="d-flex flex-row justify-content-between mt-3">
                 <div class="">
                     <a class="navbar-brand mx-auto" href="index.html">
@@ -171,5 +174,6 @@
     <!-- Footer Nav Start-->
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </html>

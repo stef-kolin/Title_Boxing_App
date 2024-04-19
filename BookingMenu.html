@@ -60,14 +60,18 @@
             </div>
         </div>
 
-        <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;">
-            <a href="ConfirmedBooking.html" class="text-dark text-decoration-none">
-                <div class="card-body">
+        <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;" id="confirmedbooking" onclick="on()">
+            <a href="#" class="text-dark text-decoration-none">
+                <div class="card-body" >
                     <h5 class="card-title fw-normal mx-4">1</h5>
                     <h5 class="card-subtitle mb-2 mx-1 fw-normal">Booked</h5>
                     <h5 class="card-text mx-1 fw-normal">Bags</h5>
             </a>
         </div>
+    </div>
+
+    <div class="bookingsummary" id="overlay" onclick="off()">
+        <img src="images\Booking Summary.png" alt="" width="350">
     </div>
 
     <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;">
@@ -145,5 +149,6 @@
     <!-- Footer Nav Start-->
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </html>
