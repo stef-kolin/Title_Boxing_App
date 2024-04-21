@@ -42,79 +42,104 @@
     </header>
     <!-- Header Nav End -->
 
+    <!-- Welcome Msg Start -->
+    <div class="container-fluid welcome">
+        <div class="jumbotron">
+            <h1 class="display-6 welcomeh1">WELCOME BACK, SAM!</h1>
+            <p class="lead">READY TO HIT IT HARD WITH US?</p>
+        </div>
+    </div>
+    <!-- Welcome Msg End -->
 
-    <!-- Manage Bags Cards Start -->
+    <!-- Upcoming Classes Start -->
 
     <div class="d-flex flex-column">
         <div>
-
+            <p class="yuc-text mt-3">Your Upcoming Classes:</p>
         </div>
-        <div class="d-flex flex-row justify-content-center mngclassescontainer">
-            <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;">
-                <a href="#" class="text-dark text-decoration-none">
+        <div class="d-flex flex-row cardcontainer">
+            <div class="card classescard border border-dark rounded-3 mx-1" style="width: 8rem;">
+                <a href="#" class="text-light text-decoration-none">
                     <div class="card-body">
-                        <h5 class="card-title fw-normal mx-4">3</h5>
-                        <h5 class="card-subtitle mb-2 mx-2 fw-normal">Past</h5>
-                        <h5 class="card-text mx-2 fw-normal">Bags</h5>
+                        <h5 class="card-title fw-normal">Friday</h5>
+                        <h6 class="card-subtitle mb-2 fw-normal">4/15</h6>
+                        <p class="card-text">Boxing 45<br>
+                            9:30 AM</br></p>
                 </a>
             </div>
         </div>
 
-        <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;" id="confirmedbooking" onclick="on()">
-            <a href="#" class="text-dark text-decoration-none">
-                <div class="card-body" >
-                    <h5 class="card-title fw-normal mx-4">1</h5>
-                    <h5 class="card-subtitle mb-2 mx-1 fw-normal">Booked</h5>
-                    <h5 class="card-text mx-1 fw-normal">Bags</h5>
+        <div class="card classescard border border-dark rounded-3 mx-1" style="width: 8rem;">
+            <a href="#" class="text-light text-decoration-none">
+                <div class="card-body">
+                    <h5 class="card-title fw-normal">Saturday</h5>
+                    <h6 class="card-subtitle mb-2 fw-normal">4/20</h6>
+                    <p class="card-text">Boxing 45<br>
+                        9:30 AM</br></p>
             </a>
         </div>
+    </div>
+
+    <div class="card classescard border border-dark rounded-3 mx-1" style="width: 8rem;" id="confirmedbooking"
+        onclick="on()">
+        <a href="#" class="text-light text-decoration-none">
+            <div class="card-body">
+                <h5 class="card-title fw-normal">Monday</h5>
+                <h6 class="card-subtitle mb-2 fw-normal">4/22</h6>
+                <p class="card-text">Boxing 45 Int.<br>
+                    5:30 PM</br></p>
+        </a>
+
+    </div>
+    </div>
     </div>
 
     <div class="bookingsummary" id="overlay" onclick="off()">
         <img src="images\Booking Summary.png" alt="" width="350">
     </div>
 
-    <div class="card myclassescard brounded-3 mx-1" style="width: 6rem;">
-        <a href="#" class="text-dark text-decoration-none">
-            <div class="card-body">
-                <h5 class="card-title fw-normal mx-4">0</h5>
-                <h5 class="card-subtitle mb-2 mx-1 fw-normal">Future</h5>
-                <h5 class="card-text mx-1 fw-normal">Bags</h5>
-        </a>
-    </div>
-    </div>
-    </div>
-    <!-- Manage Bags Cards End -->
+    <!-- Upcoming Classes End -->
 
-    <hr>
 
-    <!-- Manange Bookings section Start -->
-    <div>
-        <h5 class="mngbagstitle">Manage My Bags</h5>
-        <h6 class="mngbagsdescr">Tap to see a calendar of your past bags & booked bags ></h6>
-    </div>
-    <hr>
-    <div>
-        <h5 class="mngbagstitle">Available Class Credits</h5>
-        <h6 class="mngbagsdescr">Tap to purchase classes ></h6>
-    </div>
-    <hr>
-    <div>
-        <p class="easy123">It’s easy as 1 - 2 - 3!</p>
-        <button type="button" class="btn btn-lg border-0 rounded-3 col-10 bookaclassbtn">Book a
-            Class</button>
+    <!-- Booking Button section Start -->
+    <div class="buttoncontainer container position-relative">
+        <div class="d-flex flex-row gap-1 justify-content-between">
+            <a href="BookingMenu.html">
+                <button type="button" class="btn btn-sm border-0 rounded-3">My
+                    Bookings</button></a>
+            <button type="button" class="btn btn-sm border-0 rounded-3">My Stats</button>
+        </div>
 
-        <div class="onetwothreesteps">
-            <p>1. Select a class<br>
-                2. Reserve your bag<br>
-                3.Confirm your booking</p>
+        <div>
+            <button type="button" class="btn btn-lg mt-3 mx-auto border-0 rounded-3 col-12">Book a
+                Class</button>
+
         </div>
 
     </div>
-    <!-- Manange Bookings section End -->
+    <!-- Booking Button section End -->
 
 
+    <!-- Section for Content Cards Start -->
+    <div class="contentcard">
+        <img src="images\Focus of the Week.png" class="card-img contentcard1" alt="">
 
+    </div>
+
+    <div class=" contentcard">
+        <img src="images\Title on Demand.png" class="card-img contentcard2" alt="...">
+
+    </div>
+    <div class="contentcard">
+        <img src="images\Title Blog.png" class="card-img contentcard3" alt="...">
+
+    </div>
+    <div class="contentcard">
+        <img src="images\Contact Us.png" class="card-img contentcard4" alt="...">
+
+    </div>
+
+    <!-- Section for Content Cards End -->
     <!-- Footer Nav Start-->
     <footer>
         <div class="container fixed-bottom navfooter border border-top-0 border-5 rounded">
@@ -122,13 +147,13 @@
                 <div class="">
                     <a class="navbar-brand mx-auto" href="Home.html">
                         <img src="images\Home.png" alt="" width="20" height="20" class="ms-2">
-                        <h5 class="text-light fs-6 fw-normal">Home</h5>
+                        <h5 class="text-light fs-6 fw-normal text-decoration-underline">Home</h5>
                     </a>
                 </div>
                 <div class="">
                     <a class="navbar-brand mx-auto" href="BookingMenu.html">
                         <img src="images\Bookings.png" alt="" width="20" height="20" class="ms-3">
-                        <h5 class=" text-light fs-6 fw-normal text-decoration-underline">Bookings</h5>
+                        <h5 class=" text-light fs-6 fw-normal">Bookings</h5>
                     </a>
                 </div>
                 <div class="">
