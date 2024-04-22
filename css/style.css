@@ -153,19 +153,23 @@ margin-left: 8rem;
     height: 55px;
     width: 255px;
     color: #FFF8EE;
-    font-size: 25px;
+    font-size: 16px;
+    font-weight: bold;
     margin-left: 65px;
 }
 .confirmedbookingp {
-    margin-left: 40px; 
+    margin-left: 60px; 
+    margin-top: 7px;
+    font-size: 14px;
 }
 
 
 .jumbotronh1{
     margin-top: 30%;
+    font-size: 32px;
     font-weight: bold;
     padding-bottom: 20px;
-    margin-left: 35px;
+    margin-left: 70px;
 }
 /*index.html (Confirmed Booking) CSS End*/
 
